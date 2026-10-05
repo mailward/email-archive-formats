@@ -91,7 +91,7 @@ Longer write-ups of everything above, kept current:
 - Per format, with the reader that implements the notes above:
   [PST](https://pst.aivismonitor.com/) ·
   [OST](https://pst.aivismonitor.com/open-ost-file-online) ·
-  [OLM](https://pst.aivismonitor.com/open-olm-file-online) ·
+  [OLM](https://pst.aivismonitor.com/olm-viewer) ·
   [MBOX, including Google Takeout exports](https://pst.aivismonitor.com/open-mbox-file-online) ·
   [EML](https://pst.aivismonitor.com/open-eml-file-online) ·
   [MSG](https://pst.aivismonitor.com/open-msg-file-online)
