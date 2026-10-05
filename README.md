@@ -90,11 +90,11 @@ Longer write-ups of everything above, kept current:
 - [Email archive formats, explained](https://pst.aivismonitor.com/email-archive-formats) — the full reference this file condenses
 - Per format, with the reader that implements the notes above:
   [PST](https://pst.aivismonitor.com/) ·
-  [OST](https://pst.aivismonitor.com/open-ost-file-online) ·
+  [OST](https://pst.aivismonitor.com/ost-viewer) ·
   [OLM](https://pst.aivismonitor.com/olm-viewer) ·
-  [MBOX, including Google Takeout exports](https://pst.aivismonitor.com/open-mbox-file-online) ·
-  [EML](https://pst.aivismonitor.com/open-eml-file-online) ·
-  [MSG](https://pst.aivismonitor.com/open-msg-file-online)
+  [MBOX, including Google Takeout exports](https://pst.aivismonitor.com/mbox-viewer) ·
+  [EML](https://pst.aivismonitor.com/eml-viewer) ·
+  [MSG](https://pst.aivismonitor.com/msg-viewer)
 - Conversion, and what each direction loses:
   [PST to MBOX](https://pst.aivismonitor.com/convert-pst-to-mbox) ·
   [PST to EML](https://pst.aivismonitor.com/convert-pst-to-eml) ·
