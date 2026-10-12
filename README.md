@@ -83,6 +83,10 @@ Numbers from walking the public PST/OST test files with pst-extractor 1.12.0 —
 - **`Date:` equals `PR_CLIENT_SUBMIT_TIME` to the second on 18/18 messages with a block** — the submit time, not the delivery time, is what a synthesized `Date:` should carry.
 - **Code pages.** `PidTagMessageCodepage` (0x3FFD) is absent on every item in two of four stores (enron 0/71, example-2013 0/3) and present as 1252 on 62/70 and 45/47 items in the Outlook.com stores; no folder or store carries a fallback. `PidTagInternetCodepage` (0x3FDE) is on every mail item but is documented for `PR_BODY`/`PR_BODY_HTML` only. There is no public ANSI PST fixture anywhere (java-libpst's two `.pst` files are wVer 23), so nobody can measure how often a 2002-era store lacks one. pst-extractor's CPID table maps 932 to `iso-2022-jp`, which iconv-lite cannot decode, so 932/50220/50221/52936/38598 all fell through to a UTF-8 decode — byte-identical mojibake for "no codepage", "unknown codepage" and "undecodable codepage". A refusal has to be per string and gated on a byte ≥ 0x80; pure ASCII decodes identically everywhere.
 
+## Hands-on
+
+- [Is this PST complete? Two header fields that tell you](is-my-pst-complete.md) — `ibFileEof` and the two B-tree root offsets, a standard-library Python check, and what it prints for `enron.pst` and for a copy cut in half.
+
 ## Further reading
 
 Longer write-ups of everything above, kept current:
