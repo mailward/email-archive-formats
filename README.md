@@ -107,6 +107,10 @@ Longer write-ups of everything above, kept current:
 - How a browser reader compares with the two tools most people reach for first:
   [readpst (libpst)](https://pst.aivismonitor.com/readpst-alternative) ·
   [XstReader](https://pst.aivismonitor.com/xstreader-alternative)
+- Write-ups with measurements:
+  [reading a multi-gigabyte MBOX in the browser](https://pst.aivismonitor.com/reading-large-mbox-files-in-the-browser) ·
+  [when a Google Takeout ZIP won't open](https://pst.aivismonitor.com/google-takeout-zip-wont-open) ·
+  [sample MBOX and EML files](https://pst.aivismonitor.com/sample-mbox-eml-files)
 - [MS-PST specification](https://learn.microsoft.com/en-us/openspecs/office_file_formats/ms-pst/141923d5-15ab-4ef1-a524-6dce75aae546) (Microsoft)
 
 ---
