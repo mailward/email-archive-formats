@@ -86,6 +86,8 @@ Numbers from walking the public PST/OST test files with pst-extractor 1.12.0 —
 ## Hands-on
 
 - [Is this PST complete? Two header fields that tell you](is-my-pst-complete.md) — `ibFileEof` and the two B-tree root offsets, a standard-library Python check, and what it prints for `enron.pst` and for a copy cut in half.
+- [PST or OST? Four header fields that tell you](pst-or-ost.md) — `wMagicClient`, `wVer`, `wVerClient` and `bCryptMethod` read from two public PSTs and a 4 KB-page OST, and where readers stop on an OST.
+- [What is inside a winmail.dat?](whats-inside-winmail-dat.md) — walking a TNEF stream with the Python standard library: every attachment under its long file name, every checksum, on Apache POI's public samples.
 
 ## Further reading
 
